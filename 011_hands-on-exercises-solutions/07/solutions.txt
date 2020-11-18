@@ -1,0 +1,17 @@
+(7) Identify which of these URLs are relative URL’s and which are absolute URLs:
+www.google.com
+../pic/dog.jpg
+/pic/dog.jpg
+chapter07/index.html
+
+absolute
+www.google.com
+
+relative
+../pic/dog.jpg
+
+absolute
+/pic/dog.jpg
+
+relative
+chapter07/index.html
