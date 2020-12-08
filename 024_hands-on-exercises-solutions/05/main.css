@@ -1,3 +1,4 @@
+/* both have specificity of 10 but the attribute comes last so it is green*/
 .one {
     color: blue;
 }

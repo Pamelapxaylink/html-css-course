@@ -1,0 +1,70 @@
+<!--create a webpage with:
+p element
+h1 element
+div element
+three p elements with a class
+a div element with an id
+nest any of the above elements inside divs in your css
+add width, height, border to all divs, ps, h1s-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My CSS Specificity</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h1>I Love Hot Cheetos</h1>
+
+<div>
+    When life gives you lemoms you make lemonade. 
+</div>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio excepturi quis voluptatum quia, architecto repudiandae voluptatem assumenda expedita mollitia saepe iusto aperiam velit laudantium sapiente, labore quae fugit corrupti possimus.</p>
+
+<p class="food">Apples</p>
+<p class="food">Broccoli</p>
+<p class="food">Potatoes</p>
+
+<div id="music">Rock n' Roll</div>
+
+<!--create 10 css selectors using various selectors, have each selector change "color", and then in comments put above the selector the specificity of that selector-->
+
+<main>
+    <ul class="blue red">Hello jello</ul>
+
+    <pre>
+    (0-0-1)
+    ul {color: black;}
+    (0-1-0)
+    .blue {color: blue;}
+    (0-1-0)
+    .red {color: red;}
+    (1-0-0)
+    #red {color: red;}
+    (1-0-0)
+    #mas {color: green;}
+    </pre>
+
+    <ul class="one" id="some">Wonderful trees</ul>
+    <a href="http://www.coke.com" target="_blank" class="two">coke</a>
+
+    <pre>
+    (0-1-0)
+    .one {color: blue}
+    (1-0-0)
+    #some {color: green}
+    (1-0-0)
+    #some {color: orange}
+    (0-1-0)
+    .two {color: blue;}
+    (0-1-0)
+    [target=_blank] {color: hotpink;}
+    
+    </pre>
+</main>
+
+</body>
+</html>
+

@@ -1,4 +1,4 @@
-
+/* one has specificity of 10 some has 100*/
 .one {
     color: blue;
 }
