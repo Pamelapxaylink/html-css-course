@@ -1,0 +1,28 @@
+
+html, body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: rgb(236, 53, 197);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    /* formatting */
+    border: 10px solid blue;
+    background-image: url("BTS.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 8rem;
+    text-align: center;
+}
