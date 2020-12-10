@@ -1,0 +1,20 @@
+
+.c1 {
+    color: #fff;
+    background-color: #022149;
+}
+
+.c2 {
+    color: #fff;
+    background-color: #0455b1;
+}
+
+.c3 {
+    color: rgb(255, 255, 255);
+    background-color: #9cc3f3;
+}
+
+.c4 {
+    border: 2px solid red;
+    box-sizing: border-box;
+}
