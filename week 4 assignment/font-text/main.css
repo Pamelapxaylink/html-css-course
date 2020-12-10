@@ -1,0 +1,44 @@
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+li {
+    font-weight: 900;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h5  {
+    letter-spacing: 2rem;
+}
+
+div {
+    text-shadow: 2px 5px 10px hotpink; 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    text-decoration: line-through;
+}
+
+p {
+    text-indent: 30px;
+}
