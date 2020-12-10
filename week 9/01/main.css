@@ -1,0 +1,19 @@
+
+* {
+    border: 2px solid blue;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+}
+
+#one {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    /* formatting */
+    background-color: palevioletred;
+}
