@@ -14,7 +14,7 @@ main {
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 div {
@@ -27,4 +27,14 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section {
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
